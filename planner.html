@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner - Laura Chidinma Ndukwe </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">LN</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html" class="active">Academic Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="planner-page">
+        <h1>Academic Planner</h1>
+        
+        <div class="planner-container">
+            <div class="add-task">
+                <input type="text" id="task-input" placeholder="Enter new task...">
+                <button onclick="addTask()">Add Task</button>
+            </div>
+            
+            <ul id="task-list" class="task-list"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Laura Chidinma Ndukwe. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
